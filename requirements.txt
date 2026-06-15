@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+langchain
+langgraph
+crewai
+transformers
+torch
+whisper
+openai-whisper
+sentence-transformers
+pandas
+numpy
+scikit-learn
+sqlalchemy
+psycopg2-binary
+redis
+streamlit
