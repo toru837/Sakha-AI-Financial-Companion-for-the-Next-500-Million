@@ -1,0 +1,20 @@
+sakha-ai-financial-companion/
+│
+├── README.md
+├── requirements.txt
+├── architecture/
+│   └── system_architecture.png
+│
+├── docs/
+│   ├── problem_statement.md
+│   ├── business_model.md
+│   └── pitch_deck.pdf
+│
+├── backend/
+│   └── app.py
+│
+├── frontend/
+│   └── README.md
+│
+└── demo/
+└── concept_video_link.md
