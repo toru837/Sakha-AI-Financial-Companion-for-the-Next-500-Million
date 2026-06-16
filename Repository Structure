@@ -9,39 +9,38 @@ Sakha-AI-Financial-Companion/
 ├── frontend/
 │   ├── index.html
 │   ├── style.css
-│   └── app.js
+│   └── script.js
 │
 ├── backend/
 │   ├── main.py
-│   ├── agent.py
-│   └── database.py
+│   └── sakha_agent.py
 │
-├── docs/
-│   ├── architecture.png
-│   └── demo.pdf
+├── data/
+│   └── sample_data.json
 │
-└── assets/
-    └── screenshots/
+└── docs/
+    └── architecture.png
 ```
 
-### Folder Purpose
+### What each folder does
+
+README.md
+→ Project overview
+
+requirements.txt
+→ Python dependencies
 
 frontend/
-
-* User interface
-* Voice input
-* Chat screen
-* Goal dashboard
+→ User interface
 
 backend/
+→ AI and API logic
 
-* FastAPI server
-* AI logic
-* Database connection
+data/
+→ Sample customer data
 
 docs/
+→ Architecture diagram and presentation assets
 
-* Architecture diagrams
-* Presentation material
-
-assets/
+```
+```
