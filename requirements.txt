@@ -1,17 +1,30 @@
+# Backend
 fastapi
 uvicorn
-langchain
-langgraph
-crewai
-transformers
-torch
-whisper
-openai-whisper
-sentence-transformers
-pandas
-numpy
-scikit-learn
+python-dotenv
+pydantic
+requests
+httpx
+
+# Database
 sqlalchemy
 psycopg2-binary
-redis
-streamlit
+
+# AI / LLM
+langchain
+langgraph
+transformers
+sentence-transformers
+
+# Speech & Voice
+openai-whisper
+
+# Data Processing
+numpy
+pandas
+
+# Utilities
+python-multipart
+
+# Optional Deployment
+gunicorn
