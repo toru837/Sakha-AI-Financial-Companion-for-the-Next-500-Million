@@ -1,60 +1,69 @@
-# Sakha-AI-Financial-Companion-for-the-Next-500-Million
+# Sakha – AI Financial Companion for the Next 500 Million
 
 ## Overview
 
-Sakha is a voice-first, multilingual, Agentic AI financial companion designed to increase financial confidence and digital engagement among underserved and digitally hesitant SBI customers.
+**Sakha** is a voice-first, multilingual AI-powered financial companion designed to help underserved, first-time, and digitally hesitant banking customers build financial confidence and actively engage with digital banking services.
 
-Unlike traditional banking applications that wait for users to ask questions, Sakha proactively understands financial behavior, identifies savings opportunities, explains financial concepts in simple language, and helps users take meaningful financial actions.
+Unlike traditional banking applications that wait for users to ask questions, Sakha proactively analyzes financial behavior, identifies opportunities to save money, explains financial concepts in simple language, and helps users achieve their financial goals through guided actions.
 
-The goal is to transform banking from a transactional experience into a trusted financial relationship.
+**Tagline:**
+*"Every Indian deserves a financial friend who speaks their language, understands their goals, and helps them build a better financial future."*
 
 ---
 
-## Problem Statement
+# Problem Statement
 
-Millions of banking customers have access to financial services but lack the confidence and knowledge to fully utilize them.
+Millions of banking customers have access to financial services but struggle to use them effectively due to:
 
-Challenges include:
-
-* Low digital banking adoption
-* Limited financial literacy
+* Low financial literacy
 * Language barriers
-* Fear of financial products
+* Limited digital banking confidence
+* Fear of complex financial products
 * Dependence on branch staff for basic guidance
+* Lack of personalized financial support
 
-Most banking applications are designed for digitally savvy users and fail to support first-time or hesitant users effectively.
+Most banking applications are designed for digitally experienced users and fail to assist customers who need guidance the most.
 
 ---
 
-## Proposed Solution
+# Proposed Solution
 
-Sakha acts as an AI-powered financial companion that:
+Sakha acts as an intelligent financial companion that:
 
 * Communicates in regional languages
-* Understands user financial behavior
-* Detects savings opportunities
+* Understands customer financial behavior
+* Identifies savings opportunities
 * Provides personalized financial guidance
-* Creates goal-based savings plans
-* Takes agentic actions with user consent
-
-Example:
-
-User:
-"I want to buy a bike in one year."
-
-Sakha:
-
-* Creates a Bike Savings Goal
-* Calculates recommended savings
-* Monitors spending behavior
-* Automates savings transfers after approval
-* Explains every action in simple language
+* Creates goal-based saving plans
+* Executes actions with explicit customer consent
+* Explains recommendations in simple and understandable language
 
 ---
 
-## Key Features
+# Example User Journey
 
-### Voice-First Banking
+### User Goal
+
+> "I want to buy a bike within one year."
+
+### Sakha's Response
+
+1. Creates a **Bike Savings Goal**
+2. Calculates required monthly savings
+3. Tracks spending behavior
+4. Identifies avoidable expenses
+5. Suggests savings opportunities
+6. Recommends automatic transfers
+7. Executes transfers after user approval
+8. Continuously tracks progress toward the goal
+
+---
+
+# Key Features
+
+## 1. Voice-First Banking Experience
+
+Supports interaction through voice in multiple Indian languages:
 
 * Hindi
 * English
@@ -62,63 +71,93 @@ Sakha:
 * Tamil
 * Bengali
 * Bhojpuri
-* Other Indian languages
+* Other regional languages
 
-### Personalized Financial Guidance
+---
+
+## 2. Personalized Financial Guidance
+
+Provides:
 
 * Savings recommendations
 * Spending insights
-* Financial literacy support
+* Budgeting support
+* Financial literacy assistance
+* Personalized financial coaching
 
-### Goal-Based Agentic Saving
+---
+
+## 3. Goal-Based Agentic Savings
+
+Helps users create and achieve financial goals such as:
 
 * Bike Fund
 * Education Fund
 * Emergency Fund
 * Family Savings Goals
-
-### Behavioral Intelligence
-
-* Spending pattern analysis
-* Savings behavior analysis
-* Digital adoption insights
-
-### Trust Graph
-
-* Family-oriented financial planning
-* Recurring obligations
-* Household financial health tracking
+* Marriage Fund
+* Home Improvement Fund
 
 ---
 
-## Why SBI?
+## 4. Behavioral Intelligence
 
-SBI possesses unique longitudinal financial data including:
+Analyzes:
+
+* Spending patterns
+* Saving habits
+* Transaction behavior
+* Digital adoption trends
+
+This enables highly personalized recommendations.
+
+---
+
+## 5. Trust Graph
+
+Builds a broader understanding of customer financial responsibilities by considering:
+
+* Family financial commitments
+* Recurring obligations
+* Household financial health
+* Long-term financial goals
+
+---
+
+# Why SBI?
+
+SBI possesses unique longitudinal financial data that provides a complete view of a customer's financial journey.
+
+Examples include:
 
 * Salary credits
-* Pension flows
+* Pension inflows
 * Government benefit transfers
 * Loan history
 * Savings behavior
 * Branch interactions
+* Transaction history
 
-While fintech applications observe transactions, SBI understands a customer's complete financial journey.
+While most fintech apps only observe transactions, SBI understands the complete financial lifecycle of a customer.
+
+This makes SBI uniquely positioned to deliver truly personalized financial guidance at scale.
 
 ---
 
-## Technology Stack
+# Technology Stack
 
-### Frontend
+## Frontend
 
-* React / Flutter
+* React
+* Flutter (Mobile)
 
-### Backend
+## Backend
 
 * FastAPI
 * PostgreSQL
 * Redis
 
-### AI Layer
+## AI Layer
 
 * Llama 3
 * LangGraph
@@ -126,7 +165,7 @@ While fintech applications observe transactions, SBI understands a customer's co
 * Whisper ASR
 * Indic Language Models
 
-### Infrastructure
+## Infrastructure
 
 * Docker
 * Kubernetes
@@ -134,55 +173,88 @@ While fintech applications observe transactions, SBI understands a customer's co
 
 ---
 
-## Architecture
+# System Architecture
 
-Customer Voice/Input
+Customer Voice / Text Input
+
 ↓
-Speech-to-Text
+
+Speech-to-Text Processing
+
 ↓
-Sakha Agent
+
+Sakha AI Agent
+
 ↓
+
 Behavior Analysis Engine
+
 ↓
+
 Intent Detection
+
 ↓
+
 Recommendation Engine
+
 ↓
-Consent Verification
+
+Consent Verification Layer
+
 ↓
-Execution Layer
+
+Action Execution Layer
+
 ↓
+
 Response Generation
 
+↓
+
+Customer Feedback & Guidance
+
 ---
 
-## Impact
+# Expected Impact
 
-* Increased YONO engagement
+## For Customers
+
 * Improved financial literacy
-* Increased digital banking adoption
-* Reduced support burden
-* Better customer retention
-* Scalable AI relationship management
+* Increased confidence in digital banking
+* Better saving habits
+* Personalized financial guidance
+* Easier access to banking services
+
+## For SBI
+
+* Higher YONO engagement
+* Increased digital adoption
+* Reduced branch dependency
+* Lower support burden
+* Stronger customer retention
+* Scalable relationship banking
 
 ---
 
-## Future Scope
+# Future Scope
 
-* WhatsApp Integration
+* WhatsApp Banking Integration
 * Offline Voice Assistance
-* UPI Goal-Based Saving
+* Goal-Based UPI Savings
 * Financial Health Score
 * Rural Banking Companion
+* Family Financial Planning Assistant
+* AI-Powered Investment Guidance
 
 ---
 
-## Team
+# Team
 
-Uttam Rathore – MNIT Jaipur
+**Uttam Rathore**
+Malaviya National Institute of Technology (MNIT), Jaipur
 
 ---
 
-## Tagline
+## Note
 
-"Every Indian deserves a financial friend who speaks their language, understands their goals, and helps them build a better financial future."
+This submission represents a concept and prototype proposal for the SBI Hackathon. Full-scale implementation, integration with SBI systems, security compliance, and production deployment will be carried out after selection and in collaboration with SBI's technical and business teams.
