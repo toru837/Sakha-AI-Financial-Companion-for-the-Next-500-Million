@@ -1,6 +1,3 @@
-# Repository Structure
-
-```text
 Sakha-AI-Financial-Companion/
 │
 ├── README.md
@@ -20,27 +17,5 @@ Sakha-AI-Financial-Companion/
 │
 └── docs/
     └── architecture.png
-```
 
-### What each folder does
 
-README.md
-→ Project overview
-
-requirements.txt
-→ Python dependencies
-
-frontend/
-→ User interface
-
-backend/
-→ AI and API logic
-
-data/
-→ Sample customer data
-
-docs/
-→ Architecture diagram and presentation assets
-
-```
-```
