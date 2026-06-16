@@ -1,20 +1,47 @@
-sakha-ai-financial-companion/
+# Repository Structure
+
+```text
+Sakha-AI-Financial-Companion/
 │
 ├── README.md
 ├── requirements.txt
-├── architecture/
-│   └── system_architecture.png
-│
-├── docs/
-│   ├── problem_statement.md
-│   ├── business_model.md
-│   └── pitch_deck.pdf
-│
-├── backend/
-│   └── app.py
 │
 ├── frontend/
-│   └── README.md
+│   ├── index.html
+│   ├── style.css
+│   └── app.js
 │
-└── demo/
-└── concept_video_link.md
+├── backend/
+│   ├── main.py
+│   ├── agent.py
+│   └── database.py
+│
+├── docs/
+│   ├── architecture.png
+│   └── demo.pdf
+│
+└── assets/
+    └── screenshots/
+```
+
+### Folder Purpose
+
+frontend/
+
+* User interface
+* Voice input
+* Chat screen
+* Goal dashboard
+
+backend/
+
+* FastAPI server
+* AI logic
+* Database connection
+
+docs/
+
+* Architecture diagrams
+* Presentation material
+
+assets/
